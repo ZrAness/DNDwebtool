@@ -1,0 +1,18 @@
+.Footer{
+    background-color: rgba(0, 0, 168, 0.81) ;
+    color:  rgb(207, 207, 207);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+.Footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color:  rgb(207, 207, 207);
+}
+.Footer p{
+    cursor: default;
+}
