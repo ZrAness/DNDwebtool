@@ -99,7 +99,6 @@ async function handlesubmit(){
         <br/>
         <button type='button' onClick={handlesubmit}>submit</button>
         </form>
-        <button  onClick={handleCheck}>check</button>
     </div>
     </>)
 }

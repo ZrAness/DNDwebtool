@@ -188,7 +188,18 @@ function CLasses() {
 <p>In the 4-skill system, instead of 2 normal weapon skills, the Warrior has 1 normal skill and 1 warcry skill.</p>
 <p>Warcries can be changed midfight for half an Action Point.</p>
 <p>New warcries are unlocked by finding new horns.</p>
-        </article>
+    <h2>Melee Classes</h2>
+    <p>The melee classes are Knight,Warrior,Rogue,Spellblade and Paladin.</p>
+<p>All these classes can use any melee weapon.</p>
+<p>The skill used by these weapons are affected always by the modifiers specified by the weapons no matter the class.</p>
+    <h2>Casters Classes</h2>
+    <p>The casters classes are The wizard,Catalyst,Paladin and Spellblade.</p>
+<p>These characters consume a certain amount of mana to use their spell skills.</p>
+<p>A certain amount of mana is restored every turn.</p>
+<p>The amount is indicated on your character by "mana regen".</p>
+<p>Your mana capacity and mana regen will automatically increase by leveling up but the amount it increases by is dependent on the class.</p>
+<p>You can spend 1 action point too regen instantly double amount you usually get every turn and this does NOT affect your regular mana regen.</p>
+    </article>
     </div>
     </>
 }
