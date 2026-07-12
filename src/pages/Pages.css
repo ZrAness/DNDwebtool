@@ -113,4 +113,6 @@
     /*background-image: linear-gradient(rgba(0, 0, 168, 0.81) 0%,rgb(255, 255, 255) 20%, rgb(255, 255, 255) 80% ,rgba(0, 0, 168, 0.81)100% );*/
     background-image: linear-gradient(rgba(0, 0, 168, 0.81), rgb(61, 229, 255),rgba(0, 0, 168, 0.81));
     flex: 1;
+    display: flex;
+    justify-content: center;
 }
