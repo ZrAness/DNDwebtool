@@ -13,7 +13,7 @@ function Sheet() {
     const [age,setAge]=useState(0);
     const [Gender,setGender]=useState<gender>("Male")
     const min=10;
-    const handleAge= (e) =>{
+    const handleAge= (e: React.ChangeEvent<HTMLInputElement>) =>{
         const newValue = Math.max(min, Number(e.target.value));
         setAge(newValue);
     }
@@ -26,15 +26,15 @@ function Sheet() {
         console.log(lore)
 
     }
-    const handleClass= (e) => {
+    const handleClass= (e:React.ChangeEvent<HTMLSelectElement>) => {
         const newclass= e.target.value as fightingclasses
         setFightingclass(newclass)
     }
-    const handleSpecie= (e) => {
+    const handleSpecie= (e:React.ChangeEvent<HTMLSelectElement>) => {
         const newspecie= e.target.value as species
         setSpecie(newspecie)
     }
-       const handlegender= (e) => {
+       const handlegender= (e:React.ChangeEvent<HTMLInputElement>) => {
         const newsgender= e.target.value as gender
         setGender(newsgender)
     }
