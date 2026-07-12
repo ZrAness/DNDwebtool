@@ -17,15 +17,6 @@ function Sheet() {
         const newValue = Math.max(min, Number(e.target.value));
         setAge(newValue);
     }
-    const handleCheck =()=>{
-        console.log(age)
-        console.log(name)
-        console.log(fightingclass)
-        console.log(specie)
-        console.log(Gender)
-        console.log(lore)
-
-    }
     const handleClass= (e:React.ChangeEvent<HTMLSelectElement>) => {
         const newclass= e.target.value as fightingclasses
         setFightingclass(newclass)
