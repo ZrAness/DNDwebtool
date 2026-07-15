@@ -30,11 +30,12 @@ function Combat() {
             </li>
             <li>
                 <h4>Agility:</h4>
-                <p>The personal aspect. Charismatic people get respect from the greats, fear from the weak evils and trust from the close allies.</p>
+                <p> Momentum Control, an agile man can react quickly, sneak easily and aim precisely.</p>
             </li>
             <li>
                 <h4>Charisma:</h4>
-                <p> Momentum Control, an agile man can react quickly, sneak easily and aim precisely.</p>
+                <p>The personal aspect. Charismatic people get respect from the greats, fear from the weak evils and trust from the close allies.</p>
+                
             </li>
         </ul>
         <h2>Spin</h2>
@@ -63,8 +64,7 @@ function Combat() {
             <li>{'1~3=> 10% damage reduction'}</li>
             <li>{'4~9=> 20% damage reduction'}</li>
             <li>{'10~14=> 60% damage reduction'}</li>
-            <li>{'15~18=> 80% damage reduction'}</li>
-            <li>{'19~20=> 100% damage reduction'}</li>   
+            <li>{'15~20=> 100% damage reduction'}</li>
         </ul>
         <h2>Elemental effects</h2>
         <p>There are several Elemental effects that can be inflicted by various methodes</p>

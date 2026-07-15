@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import './Sheet.css'
 import supabase from '../supabaseClient';
+import React from 'react';
 export default Sheet
 function Sheet() {
+    const [message,setMessage]= useState('')
     type fightingclasses= |'Knight'|'Warrior'|'Rogue'|'Paladin'|'Spellblade'|'Wizard'|'Catalyst'|'Archer'|'Morpher'|'Beast tamer'|'Summoner'|'Martial artist';
     type species= 'Forest Elf'|'Ice Elf'|'Dark Elf'|'Human'|'Dwarf'|'Dragonborn'|'Orc'|'Foxfolk'|'Catfolk'|'Dogfolk'
     type gender= 'Male'|'Female'
@@ -35,9 +37,15 @@ async function handlesubmit(){
   .insert({name,age,fightingclass,specie,Gender,lore})
   if (error) {
     console.log('Insertfailed:',error)
+    setMessage('Error ')
+  }else{
+    console.log('character saved:', data)
+    setMessage('successful character making')
   }
-  console.log('character saved:', data)
+  
 }
+
+
     return (
     <>
     <div className="SheetContainer">
@@ -89,7 +97,9 @@ async function handlesubmit(){
         </textarea>
         <br/>
         <button type='button' onClick={handlesubmit}>submit</button>
+        <p id='msg'>{message}</p>
         </form>
+        
     </div>
     </>)
 }
