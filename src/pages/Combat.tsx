@@ -71,7 +71,7 @@ function Combat() {
         <ul>
             <li>Burn: 5% max HP per turn.</li>
             <li>Poison: 3% max HP per turn + 50% healing reduction.</li>
-            <li>Bleed: Starts at 1% HP damage and increases by 1% each turn (cap 10%).</li>
+            <li>Bleed:10% Max HP in the first turn then 3% per turn</li>
             <li>Freeze: Takes 20% more damage.</li>
             <li>Electrofied: Deals 20% less damage.</li>
             <li>Blind: -3 to all rolls.</li>
